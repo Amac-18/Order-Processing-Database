@@ -6,13 +6,17 @@ Designed and implemented a 12-table relational SQL database to support the backe
 ## Database Design
 
 ### Core Entities 
-- customer
-- address
-- orders
-- supplier
-- product
-- platform
-  
+- Customer
+- Address
+- Orders
+- Supplier
+- Product
+- Platform
+## Bridge Entities
+- Customer_Address
+- Supplier_Platform
+- Supplier_Product
+- Order_Detail
   
   
   
