@@ -154,7 +154,6 @@ Order_ID int Primary key auto_increment,
 Customer_ID int not null,
 Address_ID int not null,
 Order_Date date not null,
-Total_Amount numeric(10,2) not null,
 
 /*Foreign Key*/
 constraint fk_order_customer_ID
