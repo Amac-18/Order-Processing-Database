@@ -31,7 +31,7 @@ City VARCHAR (255) NOT NULL,
 Country VARCHAR(100) Not NULL default 'US'
 );
 
-/*CustomerAddress (Bridge Entity)*/
+/*Customer_Address (Bridge Entity)*/
 create table orderprocess.Customer_Address(
 Customer_ID int,
 Address_ID int,
